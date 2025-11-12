@@ -92,7 +92,6 @@
 ```
 
 **실행 결과:**
-
 ```
 📊 변경사항 분석 중...
 
@@ -150,9 +149,13 @@ src/**/*.ts, src/**/*.js → 코드 변경
   - 구조 개선 (함수 분리, 중복 제거) → refactor
 
 **/*.test.ts, **/*.spec.ts → test
+
 **/*.css, **/*.scss, **/*.styled.ts → design or style
+
 README.md, docs/** → docs
+
 package.json, tsconfig.json, webpack.config.js → build
+
 .github/workflows/** → ci
 ```
 
@@ -221,7 +224,6 @@ fi
 
 ```
 ⚠️  스테이징된 파일이 없습니다.
-
 💡 다음 명령어로 파일을 스테이징하세요:
    git add <files>
    또는
@@ -232,7 +234,6 @@ fi
 
 ```
 ❌ 커밋 실패: merge conflict가 있습니다.
-
 💡 충돌을 해결한 후 다시 시도하세요.
 ```
 
@@ -240,7 +241,6 @@ fi
 
 ```
 ⚠️  50개 이상의 파일이 변경되었습니다.
-
 💡 더 작은 단위로 나누어 커밋하는 것을 권장합니다.
    계속하시겠습니까? (y/n)
 ```
